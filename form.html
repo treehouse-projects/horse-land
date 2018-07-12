@@ -24,13 +24,21 @@
     <div>
         <form action="https://formspree.io/ken.alger+scrapy@teamtreehouse.com" method="POST">
             <input type="hidden" name="_next" value="https://treehouse-projects.github.io/horse-land/thank_you.html">
-            <label for="firstname">First Name:</label>
-            <input type="text" id="firstname" name="firstname"><br>
-            <label for="lastname">Last Name:</label>
-            <input type="text" id="lastname" name="lastname"><br>
-            <label for="jobtitle">Job Title:</label>
-            <input type="text" id="jobtitle" name="jobtitle"><br>
-            <input type="submit" value="Submit">
+            <div class="form-item">
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname">
+            </div>
+            <div class="form-item">
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname">
+            </div>
+            <div class="form-item">
+                <label for="jobtitle">Job Title:</label>
+                <input type="text" id="jobtitle" name="jobtitle">
+            </div>
+            <div class="form-item">
+                <input type="submit" value="Submit" class="button button--primary">
+            </div>
         </form>
     </div>
 </div>
